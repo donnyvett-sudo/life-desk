@@ -1,11 +1,11 @@
 name: ci
+# Manual for now: the code targets macOS 26 / iOS 26 and hosted macOS runners may not have that SDK yet.
+# Switch `runs-on` to a runner with the macOS 26 SDK and re-enable the push/pull_request triggers when available.
 on:
-  push:
-    branches: [main]
-  pull_request:
+  workflow_dispatch:
 jobs:
   test:
-    runs-on: macos-15
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
       - name: Swift version

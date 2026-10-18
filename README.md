@@ -19,6 +19,8 @@ Mac "Life Desk" ---/                                       |-- Telegram bot, Min
 ```
 Shared code: `Sources/Core` (no UI, unit-tested), `Sources/Shared` (theme). See `docs/ARCHITECTURE.md`.
 
+Backend: [life-agent](https://github.com/donnyvett-sudo/life-agent) (Supabase edge functions + web client). Deploy it first, then point this app at it.
+
 ## Requirements
 - macOS 26 and Xcode with the iOS 26 SDK (the Mac app also builds with the Command Line Tools and plain `swiftc`).
 - Node.js (builds the web client from the backend repo).
