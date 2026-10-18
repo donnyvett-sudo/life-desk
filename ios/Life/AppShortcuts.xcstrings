@@ -1,0 +1,36 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Tell ${applicationName}": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скажи ${applicationName}"
+          }
+        }
+      }
+    },
+    "Log in ${applicationName}": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Запиши в ${applicationName}"
+          }
+        }
+      }
+    },
+    "Ask ${applicationName}": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Спроси ${applicationName}"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

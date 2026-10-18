@@ -1,0 +1,14 @@
+// Copy to Config.local.xcconfig (git-ignored) and fill in. Used by ios/Life.xcodeproj and by ./build.sh.
+
+// Base URL of YOUR Life Agent backend (the Supabase Edge Function "api").
+// xcconfig treats "//" as a comment, so write it as https:/$()/ and keep the rest as is.
+LIFE_API_BASE = https:/$()/YOUR-PROJECT-REF.supabase.co/functions/v1/api
+
+// iOS only. Your Apple developer Team ID (Xcode > Settings > Accounts; a free Apple ID works for sideloading).
+DEVELOPMENT_TEAM = YOURTEAMID
+
+// iOS only. Must be unique to you, e.g. com.yourname.lifedesk. The apps become <prefix>.life and <prefix>.life.focus.
+BUNDLE_ID_PREFIX = com.example.lifedesk
+
+// iOS only. App Group shared by the app and the widget; must start with "group.".
+APP_GROUP_ID = group.com.example.lifedesk

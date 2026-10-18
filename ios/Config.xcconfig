@@ -1,0 +1,10 @@
+// Build settings shared by the Life and LifeWidgets targets.
+// Do not put your own values here: copy ../Config.local.xcconfig.example to ../Config.local.xcconfig (git-ignored).
+
+// Defaults, used when Config.local.xcconfig does not set them.
+BUNDLE_ID_PREFIX = local.lifedesk
+APP_GROUP_ID = group.local.lifedesk.life
+LIFE_API_BASE =
+DEVELOPMENT_TEAM =
+
+#include? "../Config.local.xcconfig"

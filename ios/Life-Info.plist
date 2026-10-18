@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array><string>local.lifedesk.life.refresh</string></array>
+	<key>CFBundleURLTypes</key>
+	<array><dict><key>CFBundleURLName</key><string>local.lifedesk.life.route</string><key>CFBundleURLSchemes</key><array><string>lifedesk</string></array></dict></array>
+	<key>LifeAPIBase</key><string>$(LIFE_API_BASE)</string>
+	<key>LifeAppGroup</key><string>$(APP_GROUP_ID)</string>
+	<key>UIBackgroundModes</key>
+	<array><string>fetch</string></array>
+</dict>
+</plist>

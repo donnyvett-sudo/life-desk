@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB000000000000000000002 /* LifeWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A1000000000000000000002 /* LifeWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB000000000000000000001 /* miniapp in Resources */ = {isa = PBXBuildFile; fileRef = AF000000000000000000001 /* miniapp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6000000000000000000002;
+			remoteInfo = LifeWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD000000000000000000001 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB000000000000000000002 /* LifeWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF000000000000000000002 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		A1000000000000000000002 /* LifeWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LifeWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF000000000000000000001 /* miniapp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = miniapp; sourceTree = "<group>"; };
+		A1000000000000000000001 /* Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Life.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AE000000000000000000001 /* Exceptions for Core */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ChatStore.swift,
+				ClaudeRunner.swift,
+				WorkspaceSnapshot.swift,
+			);
+			target = A6000000000000000000001 /* Life */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A2000000000000000000004 /* LifeWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LifeWidgets;
+			sourceTree = "<group>";
+		};
+		A2000000000000000000005 /* LifeShared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A2000000000000000000002 /* Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AE000000000000000000001 /* Exceptions for Core */,
+			);
+			name = Core;
+			path = ../Sources/Core;
+			sourceTree = "<group>";
+		};
+		A2000000000000000000003 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			name = Shared;
+			path = ../Sources/Shared;
+			sourceTree = "<group>";
+		};
+		A2000000000000000000001 /* Life */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Life;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000001 /* Life */,
+				A2000000000000000000002 /* Core */,
+				A2000000000000000000003 /* Shared */,
+				A2000000000000000000004 /* LifeWidgets */,
+				A2000000000000000000005 /* LifeShared */,
+				AF000000000000000000001 /* miniapp */,
+				AF000000000000000000002 /* Config.xcconfig */,
+				A5000000000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5000000000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000001 /* Life.app */,
+				A1000000000000000000002 /* LifeWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXTargetDependency section */
+		AE100000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6000000000000000000002 /* LifeWidgets */;
+			targetProxy = AC000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXNativeTarget section */
+		A6000000000000000000002 /* LifeWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7000000000000000000002 /* Build configuration list for PBXNativeTarget "LifeWidgets" */;
+			buildPhases = (
+				A8000000000000000000003 /* Sources */,
+				A3000000000000000000002 /* Frameworks */,
+				A8000000000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A2000000000000000000004 /* LifeWidgets */,
+				A2000000000000000000005 /* LifeShared */,
+			);
+			name = LifeWidgets;
+			packageProductDependencies = (
+			);
+			productName = LifeWidgets;
+			productReference = A1000000000000000000002 /* LifeWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A6000000000000000000001 /* Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7000000000000000000001 /* Build configuration list for PBXNativeTarget "Life" */;
+			buildPhases = (
+				A8000000000000000000001 /* Sources */,
+				A3000000000000000000001 /* Frameworks */,
+				A8000000000000000000002 /* Resources */,
+				AD000000000000000000001 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE100000000000000000001 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A2000000000000000000001 /* Life */,
+				A2000000000000000000002 /* Core */,
+				A2000000000000000000003 /* Shared */,
+				A2000000000000000000005 /* LifeShared */,
+			);
+			name = Life;
+			packageProductDependencies = (
+			);
+			productName = Life;
+			productReference = A1000000000000000000001 /* Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					A6000000000000000000001 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = B0000000000000000000001 /* Build configuration list for PBXProject "Life" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = A4000000000000000000001;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = A5000000000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6000000000000000000001 /* Life */,
+				A6000000000000000000002 /* LifeWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB000000000000000000001 /* miniapp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0000000000000000000001 /* Debug (project) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF000000000000000000002 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0000000000000000000002 /* Release (project) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF000000000000000000002 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1000000000000000000001 /* Debug (target) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Life.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Life-Info.plist";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera photographs meals so Life can estimate calories.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Life reads your sleep from Health to show it and to coach your evenings.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "The microphone is used to dictate quick entries such as expenses.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition turns your dictated entries into text.";
+				INFOPLIST_KEY_CFBundleDisplayName = Life;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C1000000000000000000002 /* Release (target) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Life.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Life-Info.plist";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera photographs meals so Life can estimate calories.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Life reads your sleep from Health to show it and to coach your evenings.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "The microphone is used to dictate quick entries such as expenses.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition turns your dictated entries into text.";
+				INFOPLIST_KEY_CFBundleDisplayName = Life;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C1000000000000000000003 /* Debug (LifeWidgets) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_ENTITLEMENTS = LifeWidgets.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "LifeWidgets-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).life.focus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C1000000000000000000004 /* Release (LifeWidgets) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_ENTITLEMENTS = LifeWidgets.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "LifeWidgets-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).life.focus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0000000000000000000001 /* Build configuration list for PBXProject "Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0000000000000000000001 /* Debug */,
+				C0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7000000000000000000001 /* Build configuration list for PBXNativeTarget "Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1000000000000000000001 /* Debug */,
+				C1000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7000000000000000000002 /* Build configuration list for PBXNativeTarget "LifeWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1000000000000000000003 /* Debug */,
+				C1000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9000000000000000000001 /* Project object */;
+}

@@ -1,0 +1,18 @@
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+*.app
+*.xcarchive
+*.icns
+
+# Your own configuration and secrets: never commit
+Config.local.xcconfig
+Config.local
+*.mobileprovision
+*.p12
+*.pem
+.env
+.env.*
+ios/miniapp/

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIconFile</key><string>AppIcon</string>
+<key>CFBundleName</key><string>Life Desk</string>
+<key>CFBundleDisplayName</key><string>Life Desk</string>
+<key>CFBundleIdentifier</key><string>local.lifedesk.app</string>
+<key>CFBundleExecutable</key><string>LifeDesk</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>0.1</string>
+<key>CFBundleVersion</key><string>1</string>
+<key>LifeAPIBase</key><string>__LIFE_API_BASE__</string>
+<key>LSMinimumSystemVersion</key><string>26.0</string>
+<key>NSHighResolutionCapable</key><true/>
+<key>CFBundleURLTypes</key><array><dict><key>CFBundleURLName</key><string>local.lifedesk.route</string><key>CFBundleURLSchemes</key><array><string>lifedesk</string></array></dict></array>
+</dict></plist>
